@@ -4,6 +4,7 @@ spring:
   application:
     name: leyou-user
   datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://172.17.0.1:33061/leyou?characterEncoding=UTF-8&useSSL=false
     username: root
     password: root
