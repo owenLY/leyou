@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: leyou-eureka
+  rabbitmq:
+    host: localhost
 eureka:
   client:
     fetch-registry: false
